@@ -1,0 +1,73 @@
+/* BASE STYLES */
+body {
+  background: green;
+  color: white;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: Georgia, Times, serif;
+  color: black;
+}
+
+h2, h3, p {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+/*  LAYOUTS  */
+.container {
+  width: 768px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: red;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 0 5px 10px #555;
+  -moz-border-radius: 0 5px 10px #555;
+  box-shadow: 0 5px 10px #555;
+  background: #036;
+  background: -webkit-linear-gradient(orangered, yellow);
+  background: -o-linear-gradient(orangered, yellow);
+  background: -moz-linear-gradient(orangered, yellow);
+  background: linear-gradient(orangered, yellow);
+}
+
+#box2 {
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  border-radius: 30%;
+  -webkit-border-radius: 0 5px 10px black;
+  -moz-border-radius: 0 5px 10px black;
+  box-shadow: 0 5px 10px black;
+  background: #036;
+  background: -webkit-linear-gradient(#639, #fc3);
+  background: -o-linear-gradient(#639, #fc3);
+  background: -moz-linear-gradient(#639, #fc3);
+  background: linear-gradient(#639, #fc3);
+}
+
+#box3 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 0 5px 10px #ddd;
+  -moz-border-radius: 0 5px 10px #ddd;
+  box-shadow: 0 5px 10px #ddd;
+  background: #036;
+  background: -webkit-linear-gradient(black, teal);
+  background: -o-linear-gradient(black, teal);
+  background: -moz-linear-gradient(black, teal);
+  background: linear-gradient(black, teal);
+}
+
+/*# sourceMappingURL=app.css.map */
